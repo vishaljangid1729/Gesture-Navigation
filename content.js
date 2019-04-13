@@ -1,5 +1,11 @@
 var count1 =0;
 var count2 =0;
+function zero(){
+  count1 = 0;
+  count2 = 0;
+  count3 = 0;
+}
+setInterval(zero, 500);
 
 window.addEventListener("wheel",function(e){
     
